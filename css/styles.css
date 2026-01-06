@@ -2,3 +2,71 @@
   Color de fondo: hsl(185, 75%, 39%)
   Color del texto gris: hsl(227, 10%, 46%)
  */
+
+html{
+  background-color:#19a2ae;
+}
+
+
+body{
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
+
+.circulo__top{
+  position: absolute;
+  top: -250px;
+  left: -250px;
+  width: 60%;
+}
+.circulo__bottom{
+  position: absolute;
+  right:-250px;
+  top: 450px;
+  width: 70%;
+}
+
+.contenedor{
+  position: relative;
+  top:30%;
+  z-index: 1;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.perfil{
+  position: absolute;
+  left:125px;
+  top: 80px;
+  width: 76px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+.contenedor__datos{
+  margin-top: 2.7em;
+  text-align: center;
+}
+.texto__claro{
+  color:hsl(227, 10%, 46%);
+  font-size: 1rem;
+}
+
+.contenedor__info{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  border-top: 1px solid #cfcfcf;
+}
+
+.number{
+  padding: 0.2em;
+  margin-top: 0.4em;
+  font-size: 1.4rem;
+}
