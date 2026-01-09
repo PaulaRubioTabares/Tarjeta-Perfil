@@ -10,7 +10,6 @@ html{
 
 body{
   height: 100vh;
-  position: relative;
   margin: 0;
   overflow: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
@@ -18,8 +17,8 @@ body{
 
 .circulo__top{
   position: absolute;
-  top: -250px;
-  left: -250px;
+  top: -350px;
+  left: -150px;
   width: 60%;
 }
 .circulo__bottom{
@@ -32,12 +31,11 @@ body{
 .contenedor{
   position: relative;
   top:30%;
-  z-index: 1;
   width: 350px;
   height: 350px;
   margin: auto;
   background-color: aliceblue;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
 }
 
